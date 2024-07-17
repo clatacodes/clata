@@ -26,6 +26,7 @@
            transform: translate(-50%, -50%);
            width: 100%;
        }
+       
        .container span {
            display: block;
        }
@@ -39,13 +40,56 @@
                
            }
        }
+       a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 200px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  margin: auto;
+}
+       a:link {
+  color: pink;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: helvetica;
+  align-items: center;
+}
+
+a:visited {
+  color: #cae0fa;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: helvetica;
+}
+
+a:hover {
+  color: #ed64a4;
+  text-decoration: underline;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: helvetica;
+}
+
+a:active {
+  color: cornflowerblue;
+  text-decoration: underline;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: helvetica;
+}
        .text1 {
          font-weight: 700;
            color: pink;
            font-size: 110px;
            
            letter-spacing: 0px;
-           margin-bottom: 20px;
+           margin-bottom: 0px;
            background:#e4faca;
            position: relative;
            animation: text 2s 1;
@@ -58,10 +102,13 @@
 
        .text2 {
       
-           font-size: 30px;
+           font-size: 25px;
            font-weight: 700;
            color: pink;
            font-family: helvetica;
+           
+
+    
        }
       
      
@@ -72,10 +119,13 @@
        <div class="row">
            <span class="text1">clearkiwi</span>
             <span 
+           class="text2">beginner developer</span>
+           <br>
+           <br>
         
-           <span class="text2">beginner developer</span>
-        
-         
+         <a href="./my projects.html"><p>my projects!</p></a>
+         <br>
+          <a href="https://github.com/clearkiwi"><p>my github!</p></a>
           
        </div>
    </div>
